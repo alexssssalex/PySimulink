@@ -1,0 +1,15 @@
+@startmindmap
+* PySimulink
+** GUI(View)
+*** View
+*** Menu
+*** Toolbar
+**** Standard
+**** Elements
+
+** API(control)
+
+** model
+*** format data
+*** format config
+@endmindmap

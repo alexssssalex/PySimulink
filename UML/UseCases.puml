@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+
+:User:
+
+
+(create  system) as (UC1)
+(calculation) as (UC2)
+
+
+(save data) as (UC11)
+(export data) as (UC12)
+(load data) as (UC10)
+
+(check system) as (UC22)
+(save system) as (UC21)
+(load system) as (UC20)
+
+UC2 ..>UC10:include
+UC2 ..>UC11:include
+UC2 ..>UC12:include
+
+UC1 ..>UC20:include
+UC1 ..>UC21:include
+UC1 ..>UC22:include
+
+User --> UC1
+User --> UC2
+
+@enduml

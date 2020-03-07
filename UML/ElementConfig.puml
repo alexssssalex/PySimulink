@@ -1,0 +1,10 @@
+@startuml
+
+class ConfigElement{
+type:
+data:dict
+inputs
+outputs
+}
+
+@enduml
